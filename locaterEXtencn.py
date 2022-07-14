@@ -1,0 +1,13 @@
+from selenium import webdriver
+driver = webdriver.Chrome(executable_path="C:\chromedriver.exe")
+driver.get("https://rahulshettyacademy.com/client")
+print(driver.title)
+driver.find_element_by_link_text("Forgot password?").click()
+#driver.find_element_by_xpath("//form/div[1]/input").send_keys("kaka123@gmail.com")
+#driver.find_element_by_xpath("//form/div[2]/input").send_keys("Kaka@123")
+#driver.find_element_by_xpath("//input[@type='submit']").click()
+#driver.find_element_by_xpath("//a[@xpath='Forgot password?']").click()
+driver.find_element_by_xpath("//form/div[1]/input").send_keys("kaka123@gmail.com")
+driver.find_element_by_xpath("//form/div[2]/input").send_keys("Kaka@1234")
+driver.find_element_by_xpath("//form/div[3]/input").send_keys("Kaka@1234")
+driver.find_element_by_xpath("//button[@type='submit']").click()

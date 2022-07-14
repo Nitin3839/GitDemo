@@ -1,0 +1,12 @@
+Invalid port. Exiting...
+1656585045339	geckodriver	INFO	Listening on 127.0.0.1:63899
+1656585048402	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63900" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\THIS-L~1\\AppData\\Local\\Temp\\rust_mozprofilekpUIfP"
+1656585133395	geckodriver	INFO	Listening on 127.0.0.1:63953
+1656585136483	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63954" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\THIS-L~1\\AppData\\Local\\Temp\\rust_mozprofile7yM2rJ"
+1656585136992	Marionette	INFO	Marionette enabled
+1656585136998	Marionette	INFO	Listening on port 63963
+WebDriver BiDi listening on ws://localhost:63954
+Read port: 63963
+1656585137226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\THIS-L~1\\AppData\\Local\\Temp\\rust_mozprofile7yM2rJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63954/devtools/browser/e6906048-2990-43b9-89e5-7de16d250401
